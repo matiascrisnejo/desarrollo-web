@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+/*
+colores
+fondo:#faeee7
+titulo:#33272a
+parrafos:#594a4e
+boton:#ff8ba7
+
+tipo de letra
+font-family: 'Carrois Gothic SC', sans-serif;
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.encabezado{
+    background-color: #faeee7;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    display: flex;
+}
+
+
+.logoIzq img{
+    width: 100px;
+    padding: 7px;
+}
+
+nav{
+    width: 70%;
+    padding-top: 43px;
+}
+.navBar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    
+
+}
+.navBar li{
+    list-style: none;
+    
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: #33272a;
+    font-size: 20px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+
+}
+
+main{
+    background-color: #faeee7;
+
+}
+
+.fondo{
+    
+    width: 100%;
+    height: 500px;
+    background-image: url(../assert/nutricion\ saludable\ desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.titulo{
+    color: #33272a;
+    font-size: 20px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+
+footer{
+    background-color: #FFC6C7;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.logoDer2 img{
+    width: 110px;
+    padding: 40px;
+    
+}
+/*nosotros.html
+
+*/
+
+.bannerNosotros{
+    width: 100%;
+    height: 200px;
+    background-image: url(../assert/top-view-of-fresh-foods-and-spices-vegetables-for-cooking-on-white-table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.8); 
+    
+}
+
+.bannerNosotros h1{
+    color: #33272a;
+    font-size: 20px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 80px;
+}
+
+.fotoYText{
+    display: flex;
+}
+
+.fotoPerfil img{
+    width: 75%;
+    height: 500px;
+    margin: 50px;
+    
+
+}
+
+.textPerfil{
+    width: 100%;
+    color: #33272a;
+    font-size: 20px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 80px;
+}
+
+.textPerfil h2{
+    width: 100%;
+    background-position: center;
+}
+
+.textPerfil p{
+    width: 100%;
+    background-position: center;
+}
+/*planes*/
+
+.bannerPlanes{
+    width: 100%;
+    height: 200px;
+    background-image: url(../assert/food-photography-different-fruits-and-vegetables-on-white-wooden-table-surface.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.8); 
+}
+
+.bannerPlanes h1{
+    color: #33272a;
+    font-size: 20px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 80px;
+}
+
+.planes{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.plan1{
+    width: 100%;
+}
+
+.planes .plan1 img{
+    
+    height: 200px;
+    margin: 50px;
+    padding: 50px;
+    background-position: center;
+    padding-left: 100px;
+}
+
+.planes .plan1 h2{
+    color: #33272a;
+    font-size: 20px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 0px;
+}
+
+.planes .plan1 p{
+    color: #594a4e;
+    font-size: 15px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.plan2{
+    width: 100%;
+}
+
+.planes .plan2 img{
+    height: 200px;
+    margin: 50px;
+    padding: 50px;
+    padding-left: 100px;
+    
+}
+
+.planes .plan2 h2{
+    color: #33272a;
+    font-size: 20px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 0px;
+}
+
+.planes .plan2 p{
+    color: #594a4e;
+    font-size: 15px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.plan3{
+    width: 100%;
+    
+    
+}
+
+.planes .plan3 img{
+    height: 200px;
+    margin: 50px;
+    padding: 50px;
+    padding-left: 100px;
+    
+}
+
+.planes .plan3 h2{
+    color: #33272a;
+    font-size: 20px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 0px;
+}
+
+.planes .plan3 p{
+    color: #594a4e;
+    font-size: 15px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.bannerContacto{
+    width: 100%;
+    height: 200px;
+    background-image: url(../assert/laptop-in-coworking-space-wth-schedule.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.8); 
+}
+
+.bannerContacto h1{
+    color: #33272a;
+    font-size: 20px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 80px;
+}
+
+/*contacto*/
+.formulario{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    
+
+}
+
+.formulario .form{
+    width: 50%;
+    padding: 100px 0px 0px 150px;
+
+}
+
+.formulario .contacto{
+    color: #594a4e;
+    font-size: 12px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 150px 100px;
+    width: 50%;
+
+}
+
+.formulario .form p{
+    color: #594a4e;
+    font-size: 12px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    width: 50%;
+}
+
+/*receta*/
+
+.bannerRecetas{
+    width: 100%;
+    height: 200px;
+    background-image: url(../assert/top-view-on-recipe-book-still-life-concept.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.8); 
+}
+
+.bannerRecetas h1{
+    color: #33272a;
+    font-size: 20px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 80px;
+}
+
+.recetas{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    
+}
+.recetas .dulce{
+    color: #594a4e;
+    font-size: 12px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    width: 50%;
+    padding: 100px 0px 0px 0px;
+}
+.recetas .salada{
+    color: #594a4e;
+    font-size: 12px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-position: center;
+    text-align: center;
+    letter-spacing: 5px;
+    width: 50%;
+    padding: 100px 0px 0px 0px;
+}
+
+.recetas .dulce li{
+list-style: none;
+
+}
+
+.recetas .salada li{
+    list-style: none;
+}
+
+.recetas .dulce h2{
+    padding: 0px 0px 20px 0px;
+}
+
+.recetas .salada h2{
+    padding: 0px 0px 20px 0px;
+}
+
+/* distintas vistas*/
+
+@media(max-width:768px){
+
+    .logoIzq img{
+        width: 95px;
+        padding: 7px;
+    }
+
+    .navBar{
+        
+        gap: 5px;
+    
+    }
+    .navBar li{
+        list-style: none;
+        
+    }
+    
+    .navBar li a{
+        font-size: 15px;
+    }
+
+    .titulo{
+
+        font-size: 15px;
+    }
+
+    .fotoYText{
+        display: grid;
+    }
+    .fotoPerfil{
+        background-position: center;
+        margin-left: 65px;
+    }
+
+    .planes{
+        display: grid;
+        justify-content: center;
+        
+        
+    }
+    
+}
+
+
+@media(max-width:320px){
+    
+    .logoIzq img{
+        width: 90px;
+        padding: 7px;
+        margin-left: 1px;
+        margin-top: 5px;
+    }
+
+    .navBar{
+        gap: 5px;
+        justify-content: center;
+        margin-left: 2px;
+    
+    }
+    .navBar li{
+        list-style: none;
+        
+    }
+    
+    .navBar li a{
+        text-decoration: none;
+        color: #33272a;
+        font-size: 12px;
+        font-family: 'Carrois Gothic SC', sans-serif;
+    
+    }
+
+    .titulo{
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 5px;
+    
+    }
+
+    .fotoYText{
+        display: grid;
+    }
+    .fotoPerfil{
+        display: flex;
+        background-position: center;
+        margin-right: 50px;
+        margin-left: 1px;
+    }
+
+}
