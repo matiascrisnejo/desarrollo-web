@@ -440,7 +440,7 @@ list-style: none;
     }
 
     .planes{
-        display: grid;
+        display: gridgit push -u origin ;
         justify-content: center;
         
         
